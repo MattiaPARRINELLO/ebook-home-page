@@ -7,18 +7,29 @@
 .store-banner-link {
   color: var(--dl-color-gray-white);
   text-decoration: none;
-  background-color: var(--dl-color-purple-1000);
-}
-.store-banner-link1 {
-  color: var(--dl-color-gray-white);
-  margin-left: var(--dl-space-space-doubleunit);
-  text-decoration: none;
   background-color: var(--dl-color-orange-default);
 }
+
 
 @media(max-width: 991px) {
   .store-banner-root-class-name {
     margin-top: var(--dl-space-space-tripleunit);
     margin-left: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 479px) {
+  .store-banner-link {
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .store-banner-root-class-name1 {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    align-self: center;
   }
 }
